@@ -1,15 +1,10 @@
 ---
-title: "Community Contributions for ..."
+title: "Testing installing packages from remotes"
 date: "2021-11-09"
 site: bookdown::bookdown_site
-github-repo: YOUR_USER_NAME/YOUR_REPO
-description: "This book contains community contributions for ..."
+github-repo: minimumexample/testbook
 ---
 
 # Welcome!
 
 Let's add some content to the welcome page.
-
-Submit a pull request to do so.
-
-![Under construction](under_construction.jpg)
