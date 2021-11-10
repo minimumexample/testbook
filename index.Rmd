@@ -5,6 +5,10 @@ site: bookdown::bookdown_site
 github-repo: minimumexample/testbook
 ---
 
-# Welcome!
+# Plot
 
-Let's add some content to the welcome page.
+```{r}
+library(ggplot2)
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point()
+```  
