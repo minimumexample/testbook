@@ -1,10 +1,17 @@
 ---
 title: "Testing installing packages from remotes"
-date: "2021-11-09"
+date: "2021-11-10"
 site: bookdown::bookdown_site
 github-repo: minimumexample/testbook
 ---
 
-# Welcome!
+# Plot
 
-Let's add some content to the welcome page.
+
+```r
+library(ggplot2)
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point()
+```
+
+<img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
